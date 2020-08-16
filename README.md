@@ -23,7 +23,7 @@ At t=1, to predict
 v2 > v1
 Is it safe to pass? 
 How will you find out?
-
+How will we?
 
 
 
