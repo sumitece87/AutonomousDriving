@@ -1,0 +1,11 @@
+from imageai.Detection import VideoObjectDetection
+import os
+import cv2
+import tensorflow as tf
+curDir = os. getcwd()
+camera = cv2.         #Insert method to use, either live recording or pre recorded
+detector = VideoObjectDetection()
+detector.setModelTypeAsYOLOv3()
+detector.setModelPath(os.path.join(curDir, "yolo.h5))
+detector.loadModel()
+video_path = detector.detectObjectsFromVideo(camera_input = camera, output_file_path=os.path.join(curDir,"cam1"), frames_per_second=30, Log progress=True)
